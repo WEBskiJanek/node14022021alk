@@ -3,7 +3,6 @@ const path = require("path");
 const express = require("express");
 const app = express();
 
-const port = 3000;
 
 //poniżej dodajemy port na serwerze, który jest aktualnie wolny (żeby nie robić tego z ręki przy projekcie na kilka/kilkanaście osób)
 const port = process.env.PORT || 3000;
